@@ -54,27 +54,44 @@ void Product::SetName(string n)
 	name == n;
 }
 
-void Product::SetPrice(string pr)
-{
-}
-
-string Product::GetName()
+string Product:()
 {
 	return string(name);
 }
-
-
-
 
 void Product::SetCategory(string cat)
 {
 	category == cat;
 }
-
-string Product::GetName()
+string Product::GetCategory()
 {
 	return string(category);
 }
+
+void Product::SetPrice(double pr)
+{
+	price == pr;
+}
+string Product::GetPrice()
+{
+	return double(price);
+}
+
+void Product::SetWeight(double we)
+{
+	weight == we;
+}
+string Product::GetWeight()
+{
+	return double(weight);
+}
+
+
+
+
+
+
+
 
 
 

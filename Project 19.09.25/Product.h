@@ -21,13 +21,13 @@ public:
 	string GetName();
 
 	void SetCategory(string cat);
-	string GetName();
+	string GetCategory();
 
-	void SetPrice(string pr);
-	string GetName();
+	void SetPrice(double pr);
+	double GetPrice();
 
-	void SetWeight(string we);
-	string GetName();
+	void SetWeight(double we);
+	double GetWeight();
 
 
 };
